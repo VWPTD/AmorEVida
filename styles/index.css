@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+  body header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  p {
+    font-weight: 600;
+  }
+  header a {
+    font-weight: 600;
+  }
+  #cel {
+    width: 500px;
+  }
+}
+
+header{
+    display:flex;
+}
+nav{
+    display:flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.header-img{
+    display:flex;
+}
